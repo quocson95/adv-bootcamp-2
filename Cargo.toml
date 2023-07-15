@@ -1,0 +1,5 @@
+[workspace]
+
+members = [
+    "creates/adv-bin",
+]

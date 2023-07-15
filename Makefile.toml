@@ -1,0 +1,8 @@
+[env]
+CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE=true
+
+[task.dev]
+install_create="cargo-watch"
+command="cargo"
+cwd="./creates/adv-bin"
+arg = ["watch", "-x", "run"]
